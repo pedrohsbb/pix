@@ -71,12 +71,13 @@ Os testes são **determinísticos** e **não dependem de acesso à internet**, u
 
 ---
 
-## Como rodar o projeto
+## Como executar o projeto
 
-### Pré-requisitos
-- Node.js (v18+ recomendado)
-- npm
-
-### 1. Instalar dependências
 ```bash
-npm install
+docker-compose up --build
+```
+
+A aplicação ficará disponível em:
+```
+http://localhost:3000
+```
